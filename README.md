@@ -5,5 +5,7 @@ Given a fixed small set of learned object queries, DETR reasons about the relati
 
 # How to use
 The code is on a "ipynb" file, so it can be uploaded on a CoLab session and then each cell can been run sequentially.
+
+# Comments
 Since the training of a transformer require a lot of computational resources, the free version of CoLab will shut down the running session while training.
 Therefore are done only few ephocs of training and the results obtained are not satisfactory.
