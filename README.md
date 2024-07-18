@@ -3,6 +3,8 @@
 The main ingredients of the DEtection TRansformer or DETR, are a set-based global loss that forces unique predictions via bipartite matching, and a transformer encoder-decoder architecture. 
 Given a fixed small set of learned object queries, DETR reasons about the relations of the objects and the global image context to directly output the final set of predictions in parallel. The model does not require a specialized library, unlike many other modern detectors. DETR demonstrates accuracy and run-time performance on par with the well-established and highly-optimized Faster RCNN baseline on the challenging COCO object detection dataset. Moreover, DETR can be easily generalized to produce panoptic segmentation in a unified manner.
 
+Here there is the paper: arXiv:2005.12872v3 [cs.CV] 28 May 2020
+
 # How to use
 The code is on a "ipynb" file, so it can be uploaded on a CoLab session and then each cell can been run sequentially.
 
